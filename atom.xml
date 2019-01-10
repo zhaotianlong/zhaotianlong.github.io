@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-08T09:47:58.403Z</updated>
+  <updated>2019-01-09T12:42:28.259Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,16 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2019-01-09.vue-vs-angular</title>
+    <link href="http://yoursite.com/2019/01/09/2019-01-09-vue-vs-angular/"/>
+    <id>http://yoursite.com/2019/01/09/2019-01-09-vue-vs-angular/</id>
+    <published>2019-01-09T05:59:40.000Z</published>
+    <updated>2019-01-09T12:42:28.259Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.类型分离，angular 开发更关注的是 html css js 的拆分多文件组件,vue 更推崇单文件组件 2.语法上区别 :<br>2.1 绑定属性与绑定事件 vue :属性 angular [属性],vue @事件 angular (事件)<br>2.2 双向绑定:vue v-model=“属性” ,angular [ngModel]=[属性][(dom属性)] = “属性”<br>2.3 结构语句：v-if ngIf;v-for ngfor ngfor 不支持 in key =&gt; track-ny;v-show angular [class.hide];anular 不允许 ngfor 与 ng if 在一个节点上<br>2.4 生命周期：created =&gt; init ; mounted =&gt; contentinit,viewinit;destory = ;ngchange 约= update;<br>2.5 子组件区分：angular 一种投影插件 一种子组件；<br>2.6 属性：angular 一个 get set 解决，vue 计算属性 监听属性<br>2.7 动态类: :class = “{类名:属性}” :class=”[类名 1,类名 2]” angular [class]=”{类名:属性}”<br>2.8 动态模版：angular ng-templete ng-content =&gt; vue templete<br>2.9 插槽：slot -&gt; ng-content</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.类型分离，angular 开发更关注的是 html css js 的拆分多文件组件,vue 更推崇单文件组件 2.语法上区别 :&lt;br&gt;2.1 绑定属性与绑定事件 vue :属性 angular [属性],vue @事件 angular (事件)&lt;br&gt;2.2 双向绑定
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>test</title>
     <link href="http://yoursite.com/2019/01/08/test/"/>
     <id>http://yoursite.com/2019/01/08/test/</id>
     <published>2019-01-08T09:47:58.000Z</published>
-    <updated>2019-01-08T09:47:58.403Z</updated>
+    <updated>2019-01-09T03:49:25.531Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="a" scheme="http://yoursite.com/tags/a/"/>
+    
+      <category term="b" scheme="http://yoursite.com/tags/b/"/>
+    
+      <category term="c" scheme="http://yoursite.com/tags/c/"/>
     
   </entry>
   
@@ -35,7 +62,7 @@
     <link href="http://yoursite.com/2017/10/28/hello-world/"/>
     <id>http://yoursite.com/2017/10/28/hello-world/</id>
     <published>2017-10-28T00:39:58.000Z</published>
-    <updated>2017-10-28T00:39:58.000Z</updated>
+    <updated>2019-01-09T03:49:36.489Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -48,6 +75,8 @@
     
     </summary>
     
+    
+      <category term="a" scheme="http://yoursite.com/tags/a/"/>
     
   </entry>
   
