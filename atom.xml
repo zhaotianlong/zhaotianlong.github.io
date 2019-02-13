@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-09T12:42:28.259Z</updated>
+  <updated>2019-02-13T09:20:37.861Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/01/09/2019-01-09-vue-vs-angular/"/>
     <id>http://yoursite.com/2019/01/09/2019-01-09-vue-vs-angular/</id>
     <published>2019-01-09T05:59:40.000Z</published>
-    <updated>2019-01-09T12:42:28.259Z</updated>
+    <updated>2019-02-13T09:20:37.861Z</updated>
     
-    <content type="html"><![CDATA[<p>1.类型分离，angular 开发更关注的是 html css js 的拆分多文件组件,vue 更推崇单文件组件 2.语法上区别 :<br>2.1 绑定属性与绑定事件 vue :属性 angular [属性],vue @事件 angular (事件)<br>2.2 双向绑定:vue v-model=“属性” ,angular [ngModel]=[属性][(dom属性)] = “属性”<br>2.3 结构语句：v-if ngIf;v-for ngfor ngfor 不支持 in key =&gt; track-ny;v-show angular [class.hide];anular 不允许 ngfor 与 ng if 在一个节点上<br>2.4 生命周期：created =&gt; init ; mounted =&gt; contentinit,viewinit;destory = ;ngchange 约= update;<br>2.5 子组件区分：angular 一种投影插件 一种子组件；<br>2.6 属性：angular 一个 get set 解决，vue 计算属性 监听属性<br>2.7 动态类: :class = “{类名:属性}” :class=”[类名 1,类名 2]” angular [class]=”{类名:属性}”<br>2.8 动态模版：angular ng-templete ng-content =&gt; vue templete<br>2.9 插槽：slot -&gt; ng-content</p>]]></content>
+    <content type="html"><![CDATA[<p>1.类型分离，angular 开发更关注的是 html css js 的拆分多文件组件,vue 更推崇单文件组件 2.语法上区别 :<br>2.1 绑定属性与绑定事件 vue :属性 angular [属性],vue @事件 angular (事件)<br>2.2 双向绑定:vue v-model=“属性” ,angular [ngModel]=[属性][(dom属性)] = “属性”<br>2.3 结构语句：v-if ngIf;v-for ngfor ngfor 不支持 in key =&gt; track-ny;v-show angular [class.hide];anular 不允许 ngfor 与 ng if 在一个节点上<br>2.4 生命周期：created =&gt; init ; mounted =&gt; contentinit,viewinit;destory = ;ngchange 约= update;<br>2.5 子组件区分：angular 一种投影插件 一种子组件；<br>2.6 属性：angular 一个 get set 解决，vue 计算属性 监听属性<br>2.7 动态类: :class = “{类名:属性}” :class=”[类名 1,类名 2]” angular [class]=”{类名:属性}”<br>2.8 动态模版：angular ng-templete ng-content =&gt; vue templete<br>2.9 插槽：slot -&gt; ng-content<br>2.10 区分 vuex 与 angular redux 区分<br>2.11 组件通信</p><p>2.12 vue loader 这是 angular 没有的提过的<br>2.13 vue vuerouter router-view 与 angular router-outlet<br>2.14 vue vuex actions 与 effects 有区别 不能串行</p>]]></content>
     
     <summary type="html">
     
